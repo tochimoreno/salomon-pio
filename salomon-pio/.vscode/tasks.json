@@ -1,0 +1,37 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "PlatformIO",
+			"task": "Remote Upload (d1_mini_lite)",
+			"problemMatcher": [
+				"$platformio"
+			],
+			"label": "PlatformIO: Remote Upload (d1_mini_lite)"
+		},
+		{
+			"type": "PlatformIO",
+			"task": "Build",
+			"problemMatcher": [
+				"$platformio"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "PlatformIO: Build"
+		},
+		{
+			"type": "PlatformIO",
+			"task": "Upload",
+			"problemMatcher": [
+				"$platformio"
+			],
+			"group": {
+				"kind": "upload",
+				"isDefault": true
+			},
+			"label": "PlatformIO: Upload"
+		}
+	]
+}
